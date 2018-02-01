@@ -1,6 +1,8 @@
 # Albedo Template for Bootstrap 4
 Albedo is a Free HTML Template Powered With Bootstrap 4
 
+![](capture.png)
+
 # Getting Started
 To use this templates, you only need to extract the files and open the index.html
 
