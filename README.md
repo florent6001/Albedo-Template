@@ -10,7 +10,8 @@ To use this templates, you only need to extract the files and open the index.htm
 * [BootStrap](https://getbootstrap.com/) - BootStrap 4 
 
 # Authors
-* [Linkedin](https://www.linkedin.com/in/florent-v-2a9b77a2) - Florent Vandroy
+* [Linkedin](https://www.linkedin.com/in/florent-v-2a9b77a2) - Florent Vandroy (Developer)
+* [Dribble](https://dribbble.com/shots/3116578-Albedo-Free-Personal-Onepager-PSD-Template) - Themefire (Designer)
 
 # Problems
 If you have a problem with this template, contact me.
