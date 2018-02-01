@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Cambay:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500');
+
+
+
+/******************/
+/*General styles*/
+/******************/
+
+body{
+	background-color: #f8f8f8;
+}
+
+.title{
+	font-family: 'Leckerli One Regular';
+	font-size: 36px;
+	color: #fff;
+}
+
+.grey{
+	color: #8799a3;
+}
+
+
+/******************/
+/*Background Image*/
+/******************/
+
+@media (min-width:360px){
+	.bgimg{
+		background-image: url("../img/intro.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-color: #252525;
+		height:1080px;
+	}
+}
+
+.bgimg{
+	background-color: #252525;
+	height:1200px;
+}
+
+
+/********************/
+/*Navigation navbar*/
+/********************/
+
+.navbar-light .navbar-brand {
+	font-family: 'Coustard', serif;
+	font-size: 36px;
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 18px;
+	font-family: "Work Sans Medium";
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #8799a3;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #8799a3;
+}
+
+.right-link a{
+	color: #ffff00;
+	border: 2px solid #ffff00;
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+}
+
+.right-link{
+	list-style-type: none;
+}
+
+/******************/
+/*Introduction*/
+/******************/
+
+.intro h1{
+	color: #fff;
+	font-family: 'Leckerli One Regular', cursive;
+	font-size: 36px;
+}
+
+.intro h2{
+	font-family: 'Montserrat ExtraBold', sans-serif;
+	font-size: 60px;
+	color: #fff;
+}
+
+.intro h3{
+	font-family: 'Montserrat Light', sans-serif;
+	font-size: 40px;
+	color: #fff;
+}
+
+.intro p{
+	color: #636363;
+	font-size: 24px;
+	font-family: 'Cambay Regular', sans-serif; 
+	margin-top: 25px;
+}
+
+.intro a{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Montserrat Bold', sans-serif;
+	background-color: rgba(146,146,146, 0.3); 
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 30px;
+}
+
+
+/******************/
+/*About Me*/
+/******************/
+
+.aboutme{
+	background-color: #0081ff;
+	padding-top: 135px;
+}
+
+
+.aboutme p.subtitle{
+	color: #fff;
+	font-family: 'Montserrat ExtraBold', sans-serif;
+	font-size: 42px;
+}
+
+.aboutme p{
+	font-family: 'Cambay Regular', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+/******************/
+/*Services*/
+/******************/
+
+.services{
+	background-color: #007af2;
+}
+
+.services{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.floatleft{
+	float: left;
+	padding-right: 40px;
+}
+
+.services h1{
+	font-family: 'Montserrat Bold', sans-serif;
+	font-size: 24px;
+}
+
+.services p{
+	font-family: 'Cambay Regular', sans-serif;
+	font-size: 18px;
+}
+
+
+/******************/
+/*Social Network*/
+/******************/
+
+.social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.social p{
+	font-family: 'Cambay Regular', sans-serif;
+}
+
+.fa{
+	padding: 20px;
+	font-size: 20px;
+	color: #4da7ff;
+}
+
+.fa:hover{
+	color:white;
+}
+
+
+/******************/
+/*Portfolio*/
+/******************/
+
+.portfolio h2{
+	padding-top: 35px;
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 42px;
+}
+
+.portfolio a{
+	font-family: 'Montserrat Bold', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #1cbbb4;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+	padding-left:50px;
+	border-radius: 70px;
+	color: white;
+}
+
+.portfolio img, .container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+
+/******************/
+/*Portfolio IMG*/
+/******************/
+
+@media (min-width:768px){
+	.projects *{
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+
+@media (max-width:768px){
+	.projects img{
+		width: 100%;
+	}
+}
+
+
+/******************/
+/*Clients review*/
+/******************/
+
+.client{
+	background-image: url("../img/client_background.png");
+	padding-top: 225px;
+}
+
+.client h2{
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 42px;
+	color: #fff;
+	text-align: center;
+}
+
+@media (min-width:768px){
+	.comments{
+		width: 750px;
+		padding-top: 80px;
+	}
+}
+
+.client p.comment{
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Myriad Pro Regular', sans-serif;
+}
+
+.client p.names{
+	color: #ffff00;
+	font-size: 18px;
+	font-family: 'Montserrat Black';
+}
+
+.client p.jobs{
+	margin-top: -15px;
+	font-family: 'Cambay Regular';
+	font-size: 16px;
+	color:grey;
+}
+
+
+/******************/
+/*Partners Logo*/
+/******************/
+
+.partners img{
+	padding: 30px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+/******************/
+/*Blog*/
+/******************/
+
+.blog{
+	padding-top: 80px;
+}
+
+.blog h2{
+	padding-top: 30px;
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 42px;
+}
+
+.blog p{
+	font-family: 'Cambay Regular', sans-serif;
+}
+
+/******************/
+/*Quote*/
+/******************/
+
+.quote{
+	background-color: #007efa;
+}
+
+.date{
+	font-size: 16px;
+	font-family: 'Montserrat ExtraBold', sans-serif;
+	padding-top: 35px;
+	text-align: center;
+	color: #fff;
+}
+
+.citation{
+	font-size: 24px;
+	font-family: 'Myriad Pro Regular', sans-serif;
+	color: #fff;
+	text-align: center;
+	padding:10px;
+}
+
+.author{
+	font-size: 18x;
+	color: #ffff00;
+	font-family: 'Cambay Bold', sans-serif;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.gallery{
+	background-image: url('../img/bgphoto.png');
+	background-size: cover;
+	padding-left: 50px;
+}
+
+.gallery p{
+	width: 350px;
+}
+
+.dategallery{
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 20px;
+	color: #8799a3;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+.titlegallery{
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 32px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.descriptiongallery{
+	font-family: 'Cambay Regular', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.gallerylink{
+	color:black;
+	margin-top: 40px;
+	background-color: #fefb30;
+	padding:20px;
+	border-radius: 50px;
+	font-family: "Montserrat Bold"; 
+	font-size: 14px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.linkspace{
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+
+.standardformat{
+	background-image: url('../img/standardformat.png');
+	background-size: cover;
+	padding-left: 40px;
+}
+
+.datestandardformat{
+	padding-top: 40px;
+	font-size: 16px;
+	font-family: "Montserrat ExtraBold", sans-serif;
+	color: #bbc7cd;
+}
+
+.textstandardformat{
+	font-family: "Montserrat Black", sans-serif;
+	font-size: 24px;
+	color:black;
+	padding-bottom: 50px;
+}
+
+.videoformat{
+	background-image: url("../img/videoformat.png");
+	background-size: cover;
+}
+
+.videoformatdate{
+	font-size: 16px;
+	color: #fff;
+	font-family: "Montserrat ExtraBold";
+	text-align: center;
+	padding-top: 50px;
+}
+
+.videoformattext{
+	font-family: "Montserrat Black";
+	font-size: 24px;
+	padding-top: 25px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.standartwhimg{
+	background-color: #fff;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.datestandartwhimg{
+	font-size: 16px;
+	font-family: "Montserrat ExtraBold";
+	color: #bbc7cd;
+}
+
+.titlestandartwhimg{
+	font-weight: bold;
+	color: black;
+	font-family: "Montserrat Black";
+	font-size: 22px;
+}
+
+.textstandartwhimg{
+	font-size: 16px;
+	font-family: "Cambay Regular";
+	color: #636363;
+}
+
+.viewallpost{
+	background-color: #e91d62;
+	color:white;
+}
+
+.viewallpost a{
+	color:white;
+}
+
+.viewallposttext{
+	padding-bottom: 85px;
+	padding-top: 85px;
+	text-align: center;
+}
+
+
+/***************
+*****FOOTER****
+***************/
+
+footer{
+	background-image: url('../img/bgfooter.png');
+	background-size: cover;
+}
+
+.contacts h1{
+	padding-top: 190px;
+	font-family: "Leckerli One Regular";
+	font-size: 36px;
+	color: #fff;
+	padding-bottom: 35px;
+}
+
+.contacts h2{
+	font-family: "Montserrat Black";
+	font-size: 42px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.footer{
+	background-color: black;
+	opacity: 0.5;
+}
+
+.footer p{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #464646;
+}
