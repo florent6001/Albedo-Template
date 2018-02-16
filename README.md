@@ -1,6 +1,12 @@
 # Albedo Template for Bootstrap 4
 Albedo is a Free HTML Template Powered With Bootstrap 4
 
+# Live Demo
+Here is a link for see the live demo.
+* [Demo Link](http://florent-vandroy.fr/projets/albedo/) - Demo Link
+
+# Screenshot
+
 ![](capture.png)
 
 # Getting Started
