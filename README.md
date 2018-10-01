@@ -20,7 +20,9 @@ To use this templates, you only need to extract the files and open the index.htm
 * [Dribble](https://dribbble.com/shots/3116578-Albedo-Free-Personal-Onepager-PSD-Template) - Themefire (Designer)
 
 # Problems
-If you have a problem with this template, contact me.
+If you have a problem with this template, contact me,
+If you are developer and know a solution of a problem, you can make a pull request. I will probably accept it.
 
 # Contact
 * florentvandroy@gmail.com
+* https://florent-vandroy.fr
