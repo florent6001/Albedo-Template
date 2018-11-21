@@ -3,7 +3,7 @@ Albedo is a Free HTML Template Powered With Bootstrap 4
 
 # Live Demo
 Here is a link for see the live demo.
-* [Demo Link](http://projets.florent-vandroy.fr/albedo/)
+* [Demo Link](https://florent6001.github.io/Albedo-Template/)
 
 # Screenshot
 
