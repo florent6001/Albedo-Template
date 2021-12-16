@@ -1,25 +1,25 @@
-# Albedo Template utilisant Bootstrap 4
-Albedo est un template HTML gratuit développé avec BootStrap 4. Il est principalement conçu pour les portfolios de Designer / Graphiste.
+# Albedo Template
+Albedo Template is a free HTML Template powered with Bootstrap 4. 
 
 # Live demo
-Cliquez [ici](https://florent6001.github.io/Albedo-Template/) afin d'avoir un aperçu du thème.
+[Click here](https://florent6001.github.io/Albedo-Template/) for live demo.
 
-# Capture d'écran
+# Screenshot
 ![](capture.png)
 
-# Utilisation
-Pour utiliser ce template, vous devez uniquement cloner le dépot github et ouvre le fichier index.html.
+# Usage
+You can simply clone the github repository and open the index.html file.
 
-# Créer avec
+# Tools used
 * [BootStrap](https://getbootstrap.com/) - BootStrap 4 
 
-# Auteur
-* [Linkedin](https://www.linkedin.com/in/florent-v-2a9b77a2) - Florent Vandroy (Développeur)
-* [Dribble](https://dribbble.com/shots/3116578-Albedo-Free-Personal-Onepager-PSD-Template) - Themefire (Graphiste)
+# Athor
+* [Linkedin](https://www.linkedin.com/in/florent-v-2a9b77a2) - Florent Vandroy (Developer)
+* [Dribble](https://dribbble.com/shots/3116578-Albedo-Free-Personal-Onepager-PSD-Template) - Themefire (Designer)
 
-# Problèmes
-En cas de problème avec l'utilisation de ce thème, merci de me prévenir en créant une "issue" sur Github.
-Si vous êtes développeur, vous êtes également libre de faire un pull-request pour apporter une solution.
+# Problems
+If you have any problem using this template, feel free to create an issue on Github, or send me an email.
+If you are a developer, you can also make a pull request with a fix.
 
 # Contact
 * florentvandroy@gmail.com
